@@ -5,6 +5,7 @@ import (
 	"3g-mdk-go/dto/Charge"
 	"3g-mdk-go/dto/Mpi"
 	"3g-mdk-go/dto/PayNowId"
+	"3g-mdk-go/dto/ScoreAtPay"
 	"3g-mdk-go/dto/Search"
 	"encoding/json"
 	"testing"
@@ -43,6 +44,10 @@ func TestCreateSendUrl(t *testing.T) {
 		t.Fail()
 	}
 
+	scoreAtPayRequest := &ScoreAtPay.AuthorizeRequest{}
+	if CreateSendUrl(scoreAtPayRequest, host, false) != "https://api.veritrans.co.jp/paynow/v2/Authorize/scoreatpay" {
+		t.Fail()
+	}
 }
 
 func TestAppendConnectParam(t *testing.T) {
