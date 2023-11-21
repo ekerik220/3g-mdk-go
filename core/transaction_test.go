@@ -1,14 +1,15 @@
 package core
 
 import (
-	"3g-mdk-go/dto/Account"
-	"3g-mdk-go/dto/Charge"
-	"3g-mdk-go/dto/Mpi"
-	"3g-mdk-go/dto/PayNowId"
-	"3g-mdk-go/dto/ScoreAtPay"
-	"3g-mdk-go/dto/Search"
 	"encoding/json"
 	"testing"
+
+	"github.com/ekerik220/3g-mdk-go/dto/Account"
+	"github.com/ekerik220/3g-mdk-go/dto/Charge"
+	"github.com/ekerik220/3g-mdk-go/dto/Mpi"
+	"github.com/ekerik220/3g-mdk-go/dto/PayNowId"
+	"github.com/ekerik220/3g-mdk-go/dto/ScoreAtPay"
+	"github.com/ekerik220/3g-mdk-go/dto/Search"
 )
 
 func TestCreateSendUrl(t *testing.T) {

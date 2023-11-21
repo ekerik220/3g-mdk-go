@@ -1,11 +1,12 @@
 package core
 
 import (
-	"3g-mdk-go/dto/Mpi"
-	"3g-mdk-go/dto/PayNowId"
 	"encoding/json"
 	"strings"
 	"testing"
+
+	"github.com/ekerik220/3g-mdk-go/dto/Mpi"
+	"github.com/ekerik220/3g-mdk-go/dto/PayNowId"
 )
 
 func TestGetMaskedValue(t *testing.T) {

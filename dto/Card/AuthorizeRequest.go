@@ -1,8 +1,8 @@
 package Card
 
 import (
-	"3g-mdk-go/dto/FraudDetectionV2"
-	"3g-mdk-go/dto/PayNowId"
+	"github.com/ekerik220/3g-mdk-go/dto/FraudDetectionV2"
+	"github.com/ekerik220/3g-mdk-go/dto/PayNowId"
 )
 
 type AuthorizeRequest struct {

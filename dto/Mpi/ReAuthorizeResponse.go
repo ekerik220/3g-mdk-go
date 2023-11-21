@@ -1,7 +1,7 @@
 package Mpi
 
 import (
-	"3g-mdk-go/dto/PayNowId"
+	"github.com/ekerik220/3g-mdk-go/dto/PayNowId"
 )
 
 type ReAuthorizeResponse struct {
