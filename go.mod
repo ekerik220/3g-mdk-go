@@ -1,4 +1,4 @@
-module 3g-mdk-go
+module github.com/ekerik220/3g-mdk-go
 
 go 1.21
 
