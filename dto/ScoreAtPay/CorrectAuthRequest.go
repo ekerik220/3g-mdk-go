@@ -1,6 +1,10 @@
 package ScoreAtPay
 
 type CorrectAuthRequest struct {
+	TxnVersion   string `json:"txnVersion,omitempty"`
+	DummyRequest string `json:"dummyRequest,omitempty"`
+	MerchantCcid string `json:"merchantCcid,omitempty"`
+
 	OrderId       string   `json:"orderId,omitempty"`
 	Amount        int64    `json:"amount,omitempty"`
 	ShopOrderDate string   `json:"shopOrderDate,omitempty"`
